@@ -157,10 +157,10 @@ run_worker_first = true
 # ]
 # """
 
-# [[d1_databases]]
-# binding = "DB"
+[[d1_databases]]
+binding = "DB"
 # database_name = "xxx"
-# database_id = "xxx"
+database_id = "${D1_ID}"
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
