@@ -18,9 +18,9 @@ run_worker_first = true
 # [triggers]
 # crons = [ "0 0 * * *" ]
 
-# send_email = [
-#    { name = "SEND_MAIL" },
-# ]
+send_email = [
+  { name = "SEND_MAIL" },
+]
 # SEND_MAIL_DOMAINS = ["example.com", "mail.example.com"]
 
 # [vars]
