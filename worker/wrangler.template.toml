@@ -167,9 +167,9 @@ database_id = "${D1_ID}"
 # binding = "AI"
 
 # kv config for send email verification code
-# [[kv_namespaces]]
-# binding = "KV"
-# id = "xxxx"
+[[kv_namespaces]]
+binding = "KV"
+id = "${KV_ID}"
 
 # ratelimit config for /api/new_address
 # [[unsafe.bindings]]
